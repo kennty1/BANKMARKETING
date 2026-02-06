@@ -16,9 +16,30 @@ Based on comprehensive analysis of 41,188 customer contacts with an 11.27% overa
 ### Dataset Preview
 #### This dataset contains demographic, educational, occupational, and financial information about adults in the United States. It is often used for income classification analysis, where the main goal is to determine whether an individual earns more than $50,000 per year based on their personal attributes.
 ## Dataset Description
-| age                   | marital       | education                                      | default                | housing                         | loan               | contact            | month                    | days_of_week       | duration    | campaign                   | previous                    | poutcome                | emp.var.rate    | 
-| --------------------- | --------------- | ------------------------------------------- | ------------------------ | ------------------------------------- | ---------------------------- | --------------------- | ------------------------------- | ---------- | ------ | ------------------------------- | ------------------------------- | ----------------------------- | ----------------- | ---------------------------- |  ---------------------------- |
-| Age of the individual | Employment type | Census weight used for population estimates | Highest formal education | Numerical encoding of education level | Marital status of the person | Type of job performed | Family status or household role | Race group | Gender | Money earned from capital gains | Money lost through capital loss | Number of hours worked weekly | Country of origin | Income class (<=50K or >50K) |
+                                                                             
+| ----------------- | ----------------------------------------------------------------------------------------- |
+| age               | Age of the client                                                                         |
+| job               | Type of job (admin, technician, services, etc.)                                           |
+| marital           | Marital status (married, single, divorced)                                                |
+| education         | Education level                                                                           |
+| default           | Has credit in default? (yes/no)                                                           |
+| housing           | Has housing loan? (yes/no)                                                                |
+| loan              | Has personal loan? (yes/no)                                                               |
+| contact           | Contact communication type (cellular/telephone)                                           |
+| month             | Last contact month of year                                                                |
+| day_of_week       | Last contact day of the week                                                              |
+| duration          | Last contact duration (in seconds)                                                        |
+| campaign          | Number of contacts performed during this campaign                                         |
+| pdays             | Number of days since last contact from previous campaign (999 = not previously contacted) |
+| previous          | Number of contacts performed before this campaign                                         |
+| poutcome          | Outcome of previous marketing campaign                                                    |
+| emp.var.rate      | Employment variation rate (quarterly indicator)                                           |
+| cons.price.idx    | Consumer price index (monthly indicator)                                                  |
+| cons.conf.idx     | Consumer confidence index (monthly indicator)                                             |
+| euribor3m         | Euribor 3-month rate (daily indicator)                                                    |
+| nr.employed       | Number of employees (quarterly indicator)                                                 |
+| y                 | Has the client subscribed to a term deposit? (yes/no)                                     |
+
 ---
 # Analytic Questions
 + What is the total Male Adult?
