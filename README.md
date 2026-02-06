@@ -17,6 +17,7 @@ Based on comprehensive analysis of 41,188 customer contacts with an 11.27% overa
 #### This dataset contains demographic, educational, occupational, and financial information about adults in the United States. It is often used for income classification analysis, where the main goal is to determine whether an individual earns more than $50,000 per year based on their personal attributes.
 ## Dataset Description
                                                                              
+| **Variable Name** | **Description**                                                                           |
 | ----------------- | ----------------------------------------------------------------------------------------- |
 | age               | Age of the client                                                                         |
 | job               | Type of job (admin, technician, services, etc.)                                           |
@@ -39,6 +40,7 @@ Based on comprehensive analysis of 41,188 customer contacts with an 11.27% overa
 | euribor3m         | Euribor 3-month rate (daily indicator)                                                    |
 | nr.employed       | Number of employees (quarterly indicator)                                                 |
 | y                 | Has the client subscribed to a term deposit? (yes/no)                                     |
+
 
 ---
 # Analytic Questions
