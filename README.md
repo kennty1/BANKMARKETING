@@ -153,6 +153,7 @@ SELECT
 FROM bankmarketing
 GROUP BY education
 ORDER BY conversion_rate_pct DESC;
+
 ---
 
 ##  Power Bi 
