@@ -43,27 +43,26 @@ Based on comprehensive analysis of 41,188 customer contacts with an 11.27% overa
 
 ---
 # Analytic Questions
-+ What is the total Male Adult?
-+ What is the total Female Adult?
-+ What is the camparison between Income and Age?
-+ What is the average of capital loss by education?
-+ What is the average hours per week by income
-+ What is the top 10 oldest adult in the dataset?
++ What is the overall campaign success rate and how many customers suscribed?
++ How does campaign success vary by month and days of the week?
++ Which customer demographics have the highest conversion rates?
++ What is the distribution of customers who subscribed vs those who didn't(success/failure)?
 
 # Objectives
-+ To identify key demographic and socioeconomic factors that influence an individual’s income level (whether they earn more than $50K per year).
++Measure Overall Campaign Performance:
+Determine the total number of customers who subscribed.
+Calculate the overall campaign success rate (conversion rate).
++Evaluate Campaign Performance by Time
+Analyze how subscription rates vary across different months.
+Examine differences in campaign success by day of the week.
++Identify peak periods with the highest conversion rates.
+Identify High-Performing Customer Segments
+Assess which demographic groups (age, job, marital status, education, etc.) have the highest subscription rates.
+Discover customer profiles most likely to convert.
++Analyze Subscription Distribution
+Compare the proportion of customers who subscribed versus those who did not.
+Understand the imbalance between success and failure outcomes.
 
-+ To analyze the relationship between variables such as education, age, occupation, marital status, and work hours on income distribution.
-
-+ To compare income levels across genders, races, and countries, highlighting patterns of inequality or imbalance.
-
-+ To evaluate the impact of education and work experience on earning potential and economic stability.
-
-+ To explore employment trends — determining which work classes and occupations are associated with higher income levels.
-
-+ To build a predictive model capable of classifying individuals into income categories (≤50K or >50K) based on their demographic and professional features.
-
-+ To provide data-driven insights and recommendations for policymakers, businesses, or individuals aiming to improve income equity and workforce planning.
 ---
 ## Tools Used
 + POWER BI
