@@ -144,5 +144,5 @@ Based on comprehensive analysis of 41,188 customer contacts with an 11.27% overa
 
 # Conclusion
 + The campaign currently has a low overall conversion rate (11.3%), but there are identifiable high-performing customer segments and time periods.
-
++ By implementing data-driven targeting, better timing, and segmentation strategies, the bank can significantly improve campaign efficiency and return on investment (ROI).
 
