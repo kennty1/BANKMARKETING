@@ -47,7 +47,7 @@ Based on comprehensive analysis of 41,188 customer contacts with an 11.27% overa
 + How does campaign success vary by month and days of the week?
 + Which customer demographics have the highest conversion rates?
 + What is the distribution of customers who subscribed vs those who didn't(success/failure)?
-
+---
 # Objectives
  ## 1. Measure Overall Campaign Performance:
 + Determine the total number of customers who subscribed.
