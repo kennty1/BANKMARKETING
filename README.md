@@ -52,14 +52,14 @@ Based on comprehensive analysis of 41,188 customer contacts with an 11.27% overa
 + Measure Overall Campaign Performance:
 Determine the total number of customers who subscribed.
 Calculate the overall campaign success rate (conversion rate).
-+ Evaluate Campaign Performance by Time
++ Evaluate Campaign Performance by Time:
 Analyze how subscription rates vary across different months.
 Examine differences in campaign success by day of the week.
-+ Identify peak periods with the highest conversion rates.
++ Identify peak periods with the highest conversion rates:
 Identify High-Performing Customer Segments
 Assess which demographic groups (age, job, marital status, education, etc.) have the highest subscription rates.
 Discover customer profiles most likely to convert.
-+ Analyze Subscription Distribution
++ Analyze Subscription Distribution:
 Compare the proportion of customers who subscribed versus those who did not.
 Understand the imbalance between success and failure outcomes.
 
@@ -67,69 +67,9 @@ Understand the imbalance between success and failure outcomes.
 ## Tools Used
 + POWER BI
 + SQL
-+ PYTHON
 ---
 
-## Python
-+ https://ibb.co/NdCD3N5C
-+ from matplotlib.pyplot import xlabel, ylabel
 
-
-+ try:
-    with open('adult.csv', 'r', encoding='utf-8') as f:
-        data = f.read()
-        print(data)
-   + except FileNotFoundError:
-    print("Error: adult.csv file not found in the current directory")
-+ except PermissionError:
-    print("Error: Permission denied when trying to read adult.csv")
-+ except UnicodeDecodeError:
-    + Try with a different encoding if UTF-8 fails
-  +  try:
-        with open('adult.csv', 'r', encoding='latin-1') as f:
-            data = f.read()
-            print(data)
-   + except Exception as e:
-        print(f"Error reading file with alternative encoding: {e}")
-+ except Exception as e:
-    print(f"An error occurred: {e}")
-
-   +try:
-    import pandas as pd
-    import matplotlib.pyplot as plt
-    + Read the CSV file
-    df = pd.read_csv('adult.csv')
-    df['education'] = df['education'].astype('category')
-    plt.figure(figsize=(15, 8))
-    avg_age = df.groupby('education')['age'].mean()
-    bars = plt.bar(avg_age.index, avg_age.values)
-    colors = ['red', 'blue', 'green', 'orange', 'purple', 'cyan', 'magenta', 'yellow', 'pink', 'brown', 'gray', 'gold', 'navy', 'teal']
-    bars = plt.bar(avg_age.index, avg_age.values, color=colors[:len(avg_age)])
-    
-     + Add text labels on top of each bar
-    for bar in bars:
-        height = bar.get_height()
-        plt.text(bar.get_x() + bar.get_width()/2., height,
-                f'Age: {height:.1f}',
-                ha='center', va='bottom')
-    
-    plt.title('Average Age by Education Level', fontsize=14, pad=20, color ='blue', backgroundcolor='lightgray')
-    plt.xlabel('Education Level', fontsize=12)
-    plt.ylabel('Average Age', fontsize=12)
-    
-    +  Rotate x-axis labels for better readability
-    plt.xticks(rotation=45, ha='right')
-    
-    + Adjust layout to prevent label cutoff
-    plt.tight_layout()
-
-    plt.show()
-except FileNotFoundError:
-    print("Error: 'adult.csv' file not found. Make sure it's in the same directory as your Python script.")
-except pd.errors.EmptyDataError:
-    print("Error: The CSV file is empty.")
-except Exception as e:
-    print(f"An error occurred: {e}")
 
 ##  SQL Queries
 ### https://ibb.co/yBQzRDkQ
