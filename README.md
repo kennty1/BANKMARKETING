@@ -72,20 +72,93 @@ Based on comprehensive analysis of 41,188 customer contacts with an 11.27% overa
 
 
 ##  SQL Queries
-### https://ibb.co/yBQzRDkQ
-### https://ibb.co/4nFJ7Ck3
-### https://ibb.co/j9Bcvsz2
-### https://ibb.co/tPnDQmX8
-### https://ibb.co/v6sggByr
-### https://ibb.co/chMNvRW5
-### https://ibb.co/rRyKyngs
+### WHAT IS THE OVERALL CAMPAIGN SUCCESS RATE AND HOW MANY CUSTOMERS SUSCRIBED?
+SELECT 
+    COUNT(*) AS total_contacts,
+    SUM(CASE WHEN y = 'yes' THEN 1 ELSE 0 END) AS total_subscriptions,
+    ROUND(100.0 * SUM(CASE WHEN y = 'yes' THEN 1 ELSE 0 END) / COUNT(*), 2) AS conversion_rate_pct,
+    ROUND(AVG(duration), 2) AS avg_call_duration_seconds,
+    ROUND(AVG(CASE WHEN y = 'yes' THEN duration END), 2) AS avg_duration_success,
+    ROUND(AVG(CASE WHEN y = 'no' THEN duration END), 2) AS avg_duration_failure
+FROM bankmarketing;
+### HOW DOES CAMPAIGN SUCCESS VARY BY MONTH
+SELECT 
+    month,
+    COUNT(*) AS total_contacts,
+    SUM(CASE WHEN y = 'yes' THEN 1 ELSE 0 END) AS subscriptions,
+    ROUND(100.0 * SUM(CASE WHEN y = 'yes' THEN 1 ELSE 0 END) / COUNT(*), 2) AS conversion_rate_pct
+FROM bankmarketing
+GROUP BY month
+ORDER BY conversion_rate_pct DESC;
+### HOW DOES CAMPAIGN SUCCESS VARY BY DAYS OF THE WEEK 
 
+SELECT  day_of_week,
+    COUNT(*) AS total_contacts,
+    SUM(CASE WHEN y = 'yes' THEN 1 ELSE 0 END) AS subscriptions,
+    ROUND(100.0 * SUM(CASE WHEN y = 'yes' THEN 1 ELSE 0 END) / COUNT(*), 2) AS conversion_rate_pct
+FROM bankmarketing
+GROUP BY day_of_week
+ORDER BY conversion_rate_pct DESC;
+### Days of the week
+SELECT 
+    month,
+    day_of_week,
+    COUNT(*) AS total_contacts,
+    SUM(CASE WHEN y = 'yes' THEN 1 ELSE 0 END) AS subscriptions,
+    ROUND(100.0 * SUM(CASE WHEN y = 'yes' THEN 1 ELSE 0 END) / COUNT(*), 2) AS conversion_rate_pct
+FROM bankmarketing
+GROUP BY month, day_of_week
+ORDER BY month, day_of_week; 
+### WHICH CUSTOMER DEMOGRAPHIC HAVE THE HIGHEST CONVERSION RATES?
+#BY AGE GROUP
+SELECT 
+    CASE 
+        WHEN age < 26 THEN '18-25'
+        WHEN age < 36 THEN '26-35'
+        WHEN age < 46 THEN '36-45'
+        WHEN age < 56 THEN '46-55'
+        WHEN age < 66 THEN '56-65'
+        ELSE '65+'
+    END AS age_group,
+    COUNT(*) AS total_contacts,
+    SUM(CASE WHEN y = 'yes' THEN 1 ELSE 0 END) AS subscriptions,
+    ROUND(100.0 * SUM(CASE WHEN y = 'yes' THEN 1 ELSE 0 END) / COUNT(*), 2) AS conversion_rate_pct
+FROM bankmarketing
+GROUP BY age_group
+ORDER BY age_group;
+### BY JOB 
+SELECT 
+    job,
+    COUNT(*) AS total_contacts,
+    SUM(CASE WHEN y = 'yes' THEN 1 ELSE 0 END) AS subscriptions,
+    ROUND(100.0 * SUM(CASE WHEN y = 'yes' THEN 1 ELSE 0 END) / COUNT(*), 2) AS conversion_rate_pct
+FROM bankmarketing
+GROUP BY job
+ORDER BY conversion_rate_pct DESC;
+### #BY MARITAL STATUS
+SELECT 
+    marital,
+    COUNT(*) AS total_contacts,
+    SUM(CASE WHEN y = 'yes' THEN 1 ELSE 0 END) AS subscriptions,
+    ROUND(100.0 * SUM(CASE WHEN y = 'yes' THEN 1 ELSE 0 END) / COUNT(*), 2) AS conversion_rate_pct
+FROM bankmarketing
+GROUP BY marital
+ORDER BY conversion_rate_pct DESC;
+### # BY EDUCATION LEVEL
+SELECT 
+    education,
+    COUNT(*) AS total_contacts,
+    SUM(CASE WHEN y = 'yes' THEN 1 ELSE 0 END) AS subscriptions,
+    ROUND(100.0 * SUM(CASE WHEN y = 'yes' THEN 1 ELSE 0 END) / COUNT(*), 2) AS conversion_rate_pct
+FROM bankmarketing
+GROUP BY education
+ORDER BY conversion_rate_pct DESC;
+---
 
 ##  Power Bi 
-### https://ibb.co/k6g2zN35
-### https://ibb.co/fVQqGxVq
-### https://ibb.co/wZD48rn0
-### https://ibb.co/ZRxSMrxF
+### https://ibb.co/xq0dc7j6
+### https://ibb.co/nMZR1hv7
+
 
 ---
 
