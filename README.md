@@ -131,16 +131,16 @@ Understand the imbalance between success and failure outcomes.
 
 + Increase marketing efforts during high-performing months.
 + Schedule more calls mid-week for better engagement.
-+Reduce heavy campaigns in low-performing periods.
++ Reduce heavy campaigns in low-performing periods.
 
 ## 3. Reduce Campaign Fatigue
-+Avoid excessive repeated contacts.
-+Limit number of calls per customer.
-+Prioritize quality conversations over quantity.
++ Avoid excessive repeated contacts.
++ Limit number of calls per customer.
++ Prioritize quality conversations over quantity.
 
 ## 4. Leverage Previous Campaign Success
-+Customers with previous successful outcomes should be prioritized.
-+Build loyalty campaigns for previously converted customers.
++ Customers with previous successful outcomes should be prioritized.
++ Build loyalty campaigns for previously converted customers.
 
 # Conclusion
 + The campaign currently has a low overall conversion rate (11.3%), but there are identifiable high-performing customer segments and time periods.
