@@ -49,19 +49,19 @@ Based on comprehensive analysis of 41,188 customer contacts with an 11.27% overa
 + What is the distribution of customers who subscribed vs those who didn't(success/failure)?
 
 # Objectives
-+ Measure Overall Campaign Performance:
-Determine the total number of customers who subscribed.
-Calculate the overall campaign success rate (conversion rate).
-+ Evaluate Campaign Performance by Time:
-Analyze how subscription rates vary across different months.
-Examine differences in campaign success by day of the week.
-+ Identify peak periods with the highest conversion rates:
-Identify High-Performing Customer Segments
-Assess which demographic groups (age, job, marital status, education, etc.) have the highest subscription rates.
-Discover customer profiles most likely to convert.
-+ Analyze Subscription Distribution:
-Compare the proportion of customers who subscribed versus those who did not.
-Understand the imbalance between success and failure outcomes.
+ ## 1. Measure Overall Campaign Performance:
++ Determine the total number of customers who subscribed.
++ Calculate the overall campaign success rate (conversion rate).
+## Evaluate Campaign Performance by Time:
++ Analyze how subscription rates vary across different months.
++ Examine differences in campaign success by day of the week.
+## Identify peak periods with the highest conversion rates:
++ Identify High-Performing Customer Segments
++ Assess which demographic groups (age, job, marital status, education, etc.) have the highest subscription rates.
++ Discover customer profiles most likely to convert.
+## Analyze Subscription Distribution:
++ Compare the proportion of customers who subscribed versus those who did not.
++ Understand the imbalance between success and failure outcomes.
 
 ---
 ## Tools Used
