@@ -90,25 +90,45 @@ Understand the imbalance between success and failure outcomes.
 ---
 
 # Findings
-+ Education plays a major role in income level — individuals with higher education (especially Bachelor’s degree and above) are more likely to earn above $50K annually.
++ ## Overall Campaign Performance
+### Total customers: 41,188
+### Customers subscribed: 4,640
+### Overall success rate: ≈11.3%
+### The campaign conversion rate is relatively low, meaning nearly 9 out of 10 customers did not subscribe.
 
-+ Age and work experience positively correlate with income — older individuals, particularly those between 35–55 years, tend to have higher earnings.
++ ## Campaign Success by Month & Day
+  ## By Month
+### Certain months (especially March, September, October, and December) typically show higher conversion rates.
+### Months with heavy outreach (like May) may have many contacts but lower conversion efficiency.
+### This suggests timing plays a strong role in campaign success.
 
-+ Gender income disparity exists — males are more likely to earn > $50K compared to females, even when holding similar education or job levels.
+## By Day of Week
 
-+ Marital status influences income — married individuals, especially those in “Married-civ-spouse” status, have a higher probability of earning > $50K than single or divorced individuals.
+### Conversion differences across weekdays are usually moderate.
+### Mid-week days (Tuesday–Thursday) often perform slightly better than Mondays and Fridays.
+### Day of contact has some influence, but not as strong as month or customer profile.
 
-+ Occupation type matters — high-income individuals are more concentrated in occupations like Exec-managerial, Prof-specialty, and Tech-support, while lower-income groups are common in Service and Labor roles.
++ ## Customer Demographics with Higher Conversion
+## Age
+### Middle-aged and older clients tend to subscribe more than very young customers.
 
-+ Work hours per week impact earnings — people who work more than 40 hours per week tend to fall into the higher income category.
+## Job Type
+### Retired clients and students often show higher subscription rates.
+### Blue-collar and services roles may have lower conversion rates.
 
-+ Capital gain/loss is a strong indicator of wealth — those with significant capital gains are much more likely to earn > $50K.
+## Marital Status
+### Married individuals often make up the largest subscriber group.
 
-+ Racial imbalance is visible — the majority of higher-income earners are from the White racial group, indicating potential socioeconomic disparities.
+## Education
+### Customers with higher education levels sometimes show better engagement.
 
-+ Country of origin has minimal effect — most individuals in the dataset are from the United States, with minimal variation in income trends by country.
+.
 
-+ The dataset is slightly imbalanced — a larger percentage of individuals earn ≤ $50K, showing that high-income earners form a minority group.
++ ## Distribution of Success vs Failure
+
+### No (Failure): ~88.7%
+
+### Yes (Success): ~11.3%
 
 # Recommendation
 + Promote higher education and skill development
