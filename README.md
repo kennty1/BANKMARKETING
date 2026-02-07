@@ -156,7 +156,7 @@ ORDER BY conversion_rate_pct DESC;
 
 ---
 
-##  Power Bi 
+##  Power Bi Dashboard
 ### https://ibb.co/xq0dc7j6
 ### https://ibb.co/nMZR1hv7
 
