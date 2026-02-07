@@ -5,11 +5,11 @@ Based on comprehensive analysis of 41,188 customer contacts with an 11.27% overa
 + [Analytic Questions](#Analytic-Questions)
 + [Objectives](#Objectives)
 + [Tools Used](#Tools-Used)
-+ [Python](#Python)
 + [SQL Queries](#sql-queries)
 + [Power Bi Dashboard](#Power-Bi-Dashboard)
 + [Findings](#Findings)
 + [Recommendation](#Recommendation)
++ [Conclusion](#Conclusion)
 ---
 ## Bank Marketing
 ### Dataset Preview
@@ -52,14 +52,14 @@ Based on comprehensive analysis of 41,188 customer contacts with an 11.27% overa
  ## 1. Measure Overall Campaign Performance:
 + Determine the total number of customers who subscribed.
 + Calculate the overall campaign success rate (conversion rate).
-## Evaluate Campaign Performance by Time:
+## 2. Evaluate Campaign Performance by Time:
 + Analyze how subscription rates vary across different months.
 + Examine differences in campaign success by day of the week.
-## Identify peak periods with the highest conversion rates:
+## 3. Identify peak periods with the highest conversion rates:
 + Identify High-Performing Customer Segments
 + Assess which demographic groups (age, job, marital status, education, etc.) have the highest subscription rates.
 + Discover customer profiles most likely to convert.
-## Analyze Subscription Distribution:
+## 4. Analyze Subscription Distribution:
 + Compare the proportion of customers who subscribed versus those who did not.
 + Understand the imbalance between success and failure outcomes.
 
