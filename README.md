@@ -195,7 +195,7 @@ ORDER BY conversion_rate_pct DESC;
 + ## Distribution of Success vs Failure
 ### No (Failure): ~88.7%
 ### Yes (Success): ~11.3%
-
+---
 # Recommendation
 ## 1. Improve Targeting Strategy
 + Focus on high-performing demographic segments (retired, middle-aged, previously successful contacts).
@@ -215,7 +215,7 @@ ORDER BY conversion_rate_pct DESC;
 ## 4. Leverage Previous Campaign Success
 + Customers with previous successful outcomes should be prioritized.
 + Build loyalty campaigns for previously converted customers.
-
+---
 # Conclusion
 + The campaign currently has a low overall conversion rate (11.3%), but there are identifiable high-performing customer segments and time periods.
 + By implementing data-driven targeting, better timing, and segmentation strategies, the bank can significantly improve campaign efficiency and return on investment (ROI).
